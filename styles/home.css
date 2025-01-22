@@ -90,3 +90,85 @@
     height: 575px;
     
 }
+
+/*standard curriculum styles*/
+.standard-curriculum{
+    padding: 0px 60px;
+    background: url(../images/bg.png);
+}
+.standard-curriculum h2{
+    font-size: 46px;
+    line-height: 57px;
+    font-weight: bold;
+    text-align: center;
+}
+.curriculum-contents{
+    padding: 80px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+.card-1, .card-2, .card-3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 368px;
+    height: 477px;
+    border-radius: 19px;
+    padding: 40px 40px;
+}
+.card-1 h4, .card-2 h4, .card-3 h4{
+    font-weight: bold;
+    font-size: 24.5px;
+    line-height: 30px;
+    color: black;
+}
+.card-1 p, .card-2 p, .card-3 p{
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 28px;
+    color: #808080;
+}
+.card-1 button, .card-2 button, .card-3 button{
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 28px;
+    color: #808080;
+    margin: 50px 0px;
+    background-color: white;
+    border: none;
+}
+.card-1 button{
+    color: #64C8FF;
+}
+.card-2 button{
+    color: #F0AA00;
+}
+.card-3 button{
+    color: #8700FF;
+}
+.card-1{
+    background: linear-gradient(to bottom, #DEF5FF, white);
+    margin-right: 28px;
+}
+.card-2{
+    background: linear-gradient(to bottom, #FFF4DC, white);
+    margin-right: 28px;
+}
+.card-3{
+    background: linear-gradient(to bottom, #F2E8FF, white);
+}
+.more-curriculum-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.more-curriculum-button img{
+    background-color: orange;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 50%;
+    object-fit: cover;
+    padding: 10px;
+}
