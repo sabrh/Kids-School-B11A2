@@ -11,6 +11,28 @@
     display: flex;
 }
 
+.marquee {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    box-sizing: border-box;
+    background: #fef6e4; 
+    padding: 10px 20px;
+    color: #333333; 
+    font-size: 16px;
+    font-weight: bold;
+    animation: marquee 12s linear infinite;
+  }
+
+  @keyframes marquee {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+
 /*nav styles*/
 .navbar{
   justify-content: space-between;
@@ -340,10 +362,17 @@ footer{
     .logo-container h2, .navbar .nav-links, .navbar .nav-item, .navbar button{
         display: none;
     }
+    .navbar{
+        margin: 0;
+        padding: 20px 20px;
+    }
     .navbar .burger-menu{
         display: flex;
     }
+    
     .banner{
+        margin: 0;
+        padding: 0px 20px;
         flex-direction: column-reverse;
     }
     .curriculum-contents{
@@ -354,8 +383,21 @@ footer{
         display: none;
     }
     footer{
+        margin: 0;
+        padding: 20px 40px;
         display: grid;
         grid-template-columns: repeat(1, 1fr);
+    }
+    .kids-edu h2{
+        font-size: 35px;
+       
+    }
+    .kids-edu p{
+        font-size: 16px;
+        text-align: left;
+    }
+    .about-school h4, .links h4{
+        font-size: 20px;
     }
     .about-school .nav-links{
         text-decoration: none;
@@ -367,13 +409,14 @@ footer{
         list-style: none;
       }
     .banner img{
+        align-items: center;
         width: 330px;
-        width: 410px;
+        height: 410px;
     }
     .banner h1{
         tab-size: 32px;
     }
-    .banner h1, p, button{
+    .banner h1, p{
         text-align: center;
     }
     .banner-button{
@@ -388,7 +431,7 @@ footer{
         font-weight: 400;
         line-height: 30px;
     }
-    .standard-curriculum{
+    .standard-curriculum, .our-stories{
         margin: 0;
         padding: 0;
     }
@@ -398,10 +441,11 @@ footer{
     }
     .standard-curriculum h2, .our-stories h2{
         font-size: 26px;
+        text-align: center;
     }
     .card-1, .card-2, .card-3{
-        width: 350px;
-        height: 325px;
+        width: 300px;
+        height: 320px;
         padding: 28px 36px;
         margin-bottom: 20px;
     }
@@ -437,16 +481,27 @@ footer{
     .more-curriculum-button{
         display: none;
     }
+    .our-stories .button{
+        justify-content: center;
+        text-align: center;
+    }
 
-    .story-1, .story-2, .story-3, .story-4{
+    .stories-content{
+        gap: 5px;
+    }.story-1, .story-2, .story-3, .story-4{
         width: 173px;
         height: 179px;
+        padding-bottom: 20px;
+    }
+    .story-1 img, .story-2 img, .story-3 img, .story-4 img{
+        width: 173px;
+        height: 105px;
     }
     .story-1 h5, .story-2 h5, .story-3 h5, .story-4 h5{
         width: 106px;
         height: 23px;
         font-size: 9px;
-        margin-top: -20px;
+        margin-top: -15px;
     }
     .story-1 h4, .story-2 h4, .story-3 h4, .story-4 h4{
         font-size: 10px;
