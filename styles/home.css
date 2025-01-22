@@ -73,7 +73,7 @@
 .banner p{
     font-size: 20px;
 }
-.banner button{
+.banner button, .our-stories button{
     width: 197px;
     height: 50px;
     padding: 10px 10px;
@@ -82,7 +82,7 @@
     border-radius: 12px;
     border: none;
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 400;
     line-height: 30px;
 }
 .banner img{
@@ -165,10 +165,80 @@
 }
 .more-curriculum-button img{
     background-color: orange;
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
     margin-right: 10px;
     border-radius: 50%;
     object-fit: cover;
     padding: 10px;
+}
+
+/*our stories styles*/
+.our-stories{
+    padding: 0px 60px;
+    background: 
+    linear-gradient(to top, #d8aa5b, white), 
+    url(../images/bg.png);
+    background-size: cover;
+}
+.our-stories h2{
+    font-size: 46px;
+    line-height: 57px;
+    font-weight: bold;
+    text-align: center;
+}
+.all-stories{
+    padding: 80px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+.all-stories img{
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+.stories-content{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    border-radius: 16px;
+}
+.story-0 h4, p{
+    padding: 20px 40px;
+}
+.story-0 h5{
+    background-color: #3CD8E8;
+}
+.story-2 h5{
+    background-color: #5D58F0;
+}
+.story-1 h5, .story-3 h5, .story-4 h5{
+    background-color: #95B226;
+}
+.story-0 p{
+    color: #666666;
+}
+.stories-content h4{
+    padding: 20px 40px;
+}
+.story-0, .story-1, .story-2, .story-3, .story-4{
+    background: white;
+    border-radius: 16px;
+
+}
+.all-stories h5{
+    position: absolute;
+    width: 175px;
+    height: 48px;
+    border-radius: 48px;
+    color: white;
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 29px;
+    text-align: center;
+    margin-top: -30px;
+    margin-left: 40px;
+}
+.our-stories .button{
+    text-align: center;
+    padding-bottom: 60px;
 }
