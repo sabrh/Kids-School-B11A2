@@ -20,7 +20,7 @@
     font-weight: 600;
     font-size: 32px;
     line-height: 30px;
-    justify-content: left;;
+    justify-content: left;
 }
 .nav-item{
   list-style: none;
@@ -54,7 +54,11 @@
     color: white;
     font-size: 20px;
     font-weight: 500;
+    cursor: pointer;
     
+}
+.navbar button:hover{
+    font-size: 25px;
 }
 
 /*banner styles*/
@@ -72,6 +76,8 @@
 }
 .banner p{
     font-size: 20px;
+    margin: 0;
+    padding: 30px 0px;
 }
 .banner button, .our-stories button{
     width: 197px;
@@ -84,6 +90,10 @@
     font-size: 20px;
     font-weight: 400;
     line-height: 30px;
+    cursor: pointer;
+}
+.banner button:hover, .our-stories button:hover{
+    font-size: 25px;
 }
 .banner img{
     width: 468px;
@@ -140,12 +150,30 @@
 }
 .card-1 button{
     color: #64C8FF;
+    cursor: pointer;
+    border-radius: 50px;
+}
+.card-1 button:hover{
+    background-color: #64C8FF;
+    color: white;
 }
 .card-2 button{
     color: #F0AA00;
+    cursor: pointer;
+    border-radius: 50px;
+}
+.card-2 button:hover{
+    background-color: #F0AA00;
+    color: white;
 }
 .card-3 button{
     color: #8700FF;
+    cursor: pointer;
+    border-radius: 50px;
+}
+.card-3 button:hover{
+    background-color: #8700FF;
+    color: white;
 }
 .card-1{
     background: linear-gradient(to bottom, #DEF5FF, white);
@@ -162,6 +190,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 60px;
 }
 .more-curriculum-button img{
     background-color: orange;
@@ -171,13 +200,18 @@
     border-radius: 50%;
     object-fit: cover;
     padding: 10px;
+    cursor: pointer;
+   
+}
+.more-curriculum-button img:hover{
+   background-color: rgb(250, 125, 0);
 }
 
 /*our stories styles*/
 .our-stories{
     padding: 0px 60px;
     background: 
-    linear-gradient(to top, #d8aa5b, white), 
+    linear-gradient(to top, #FECA6C, white), 
     url(../images/bg.png);
     background-size: cover;
 }
@@ -241,4 +275,57 @@
 .our-stories .button{
     text-align: center;
     padding-bottom: 60px;
+}
+
+/*footer styles*/
+footer{
+    padding: 80px 100px;
+    background-color: #01ACFD;
+    display: flex;
+    justify-content: space-between;
+}
+.kids-edu img{
+    width: 82px;
+    height: 82px;
+    background: white;
+    margin-top: 40px;
+}
+.kids-edu h2{
+    font-size: 42px;
+    color: white;
+    font-weight: bold;
+    line-height: 39px;
+}
+.kids-edu p{
+    font-size: 20px;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+.about-school h4{
+    font-weight: bold;
+    font-size: 24px;
+    color: white;
+}
+.links h4{
+    font-weight: bold;
+    font-size: 26px;
+    color: white;
+
+}
+.about-school ul > li{
+    margin-bottom: 20px;
+}
+.about-school .nav-link{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+    
+    
+}
+.links a{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
 }
