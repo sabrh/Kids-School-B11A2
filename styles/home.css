@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.quicksand-font {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.display-flex{
+    display: flex;
+}
+
+/*nav styles*/
+.navbar{
+  justify-content: space-between;
+  padding: 20px 80px;
+}
+.logo h2{
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 30px;
+    justify-content: left;;
+}
+.nav-item{
+  list-style: none;
+  margin-right: 35px;
+}
+.nav-link1, .nav-link2, .nav-link3, .nav-link4{
+  text-decoration: none;
+  font-weight: 500;
+  line-height: 30px;
+  font-size: 20px;
+}
+.nav-link1{
+    color: orange;
+}
+.nav-link2{
+    color: skyblue;
+}
+.nav-link3{
+    color: #05D4DF;
+}
+.nav-link4{
+    color: #5D58EF;
+}
+.navbar button{
+    width: 197px;
+    height: 50px;
+    padding: 10px 10px;
+    border-radius: 12px;
+    background-color: orange;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    
+}
+
+/*banner styles*/
+.banner{
+    padding: 0px 80px;
+    justify-content: space-between;
+}
+.banner-content{
+    padding-top: 70px;
+}
+.banner h1{
+    font-size: 56px;
+    font-weight: bold;
+    line-height: 61px;
+}
+.banner p{
+    font-size: 20px;
+}
+.banner button{
+    width: 197px;
+    height: 50px;
+    padding: 10px 10px;
+    background-color: black;
+    color: white;
+    border-radius: 12px;
+    border: none;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+}
+.banner img{
+    width: 468px;
+    height: 575px;
+    
+}
