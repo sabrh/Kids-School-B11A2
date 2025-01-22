@@ -102,9 +102,11 @@
 }
 
 /*standard curriculum styles*/
+.standard-curriculum, .our-stories{
+    background: url(../images/bg.png);
+}
 .standard-curriculum{
     padding: 0px 60px;
-    background: url(../images/bg.png);
 }
 .standard-curriculum h2{
     font-size: 46px;
@@ -210,10 +212,8 @@
 /*our stories styles*/
 .our-stories{
     padding: 0px 60px;
-    background: 
-    linear-gradient(to top, #FECA6C, white), 
-    url(../images/bg.png);
-    background-size: cover;
+    border-image: linear-gradient(rgba(255, 255, 255, .5), rgba(226, 203, 161, .5), rgba(254, 202, 108, .3)) fill 1;
+
 }
 .our-stories h2{
     font-size: 46px;
@@ -328,4 +328,9 @@ footer{
     width: 20px;
     height: 20px;
     margin-right: 10px;
+}
+
+/*mobile device responsive layout*/
+@media screen and (max-width: 576px){
+    
 }
